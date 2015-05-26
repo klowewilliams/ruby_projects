@@ -1,0 +1,10 @@
+puts "Welcome to the Angry Boss program"
+puts ""
+puts "What would you like to ask your boss for?"
+request = gets.chomp
+puts ""
+puts "We have received a response from your Boss!"
+puts ""
+puts "Your Boss says:"
+puts ""
+puts "WHADDAYA MEAN " + "\"I WANT " + request.upcase + "\"" + "?!? YOU\'RE FIRED!!"
